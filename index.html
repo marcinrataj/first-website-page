@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>MOJA PIERWSZA STRONA</title>
+</head>
+<body>
+<section class="header">
+
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">WYSZUKAJ</a></li>
+                <li><a href="">O MNIE</a></li>
+                <li><a href="">KURS</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">KONTAKT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class=" text-box">
+        <h1>Witaj na mojej pierwszej stronie</h1>
+        <p>Robienie stron jest jedną z łatwiejszych czynności. Musisz się nauczyć tylko HTML, CSS,<br> JavaScript i
+            będziesz w tym dobry
+        </p>
+        <a href="" class="hero-btn">Poznaj mnie</a>
+
+    </div>
+</section>
+<!--------- Course ------------>
+<section class="course">
+    <h1>Zobacz Więcej</h1>
+    <p>Napewno nie obejdzie się bez programu, polecam Visual Studio Code, Webstorm<br> będzie nam wtedy łatwiej, dużo
+        łatwiej niż w notatniku :)</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>JavaScript</h3>
+            <p>Język programowania, w którym funkcje są "obywatelami pierwszej kategorii" - obiektami, które można
+                przechowywać w zmiennych jako referencje i przekazywać jak każde inne obiekty. Chociaż JavaScript jest
+                najbardziej znany jako język skryptowy dla stron internetowych, używa go również wiele środowisk poza
+                przeglądarką, takich jak Node.js, Apache CouchDB czy Adobe Acrobat. JavaScript jest językiem opartym na
+                prototypach, wielu paradygmatach, dynamicznej składni, zorientowanym obiektowo, o stylu imperatywnym i
+                deklaratywnym (np. programowanie funkcyjne). </p>
+        </div>
+        <div class="course-col">
+            <h3>HTML</h3>
+            <p>HTML jest językiem znaczników, składa się z
+                serii znaczników (tagów), których używa się do zamknięcia, opakowania różnych części treści, tak aby
+                wyglądały i/lub działały w określony sposób. Z pomocą tagów możesz ze słów czy obrazów zrobić linki do
+                innych stron, sprawić by były napisane kursywą, większą czcionką, wytłuścić je itd.HTML pozwala opisać
+                strukturę informacji zawartych wewnątrz strony internetowej, nadając odpowiednie znaczenie semantyczne
+                poszczególnym fragmentom tekstu – formując hiperłącza, akapity, nagłówki, listy – oraz osadza w tekście
+                dokumentu obiekty plikowe, na przykład multimedia, lub elementy baz danych, na przykład interaktywne
+                formularze danych.</p>
+        </div>
+        <div class="course-col">
+            <h3>CSS</h3>
+            <p>Kaskadowe arkusze stylów CSS (ang. Cascading Style Sheets) to kod służący do nadawania wyglądu strony.
+                CSS Podobnie jak HTML, CSS nie jest językiem programowania. Nie jest jednak też językiem znaczników —
+                jest językiem arkuszy stylów (ang. style sheet language). Oznacza to, że pozwala on selektywnie stosować
+                style do elementów w dokumentach HTML. CSS, razem z HTML oraz JavaScript należy do tzw. “wielkiej
+                trójki” programisty Frontend. Znajomość tych trzech technologii pozwala tworzyć kompletne interaktywne i
+                dynamiczne strony internetowe.CSS został opracowany przez organizację W3C w 1996 r. jako potomek języka
+                DSSSL przeznaczony do używania w połączeniu z SGML-em</p>
+        </div>
+    </div>
+</section>
+<!--------- campus ------------>
+
+<section class="campus">
+    <h1>Zobacz Także</h1>
+    <p>Dodanie obrazów, zdjęć czy też zwykłego background'u nie jest takie trudne</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/sky1.png" alt="">
+            <div class="layer">
+                <h3>EVENING<br>(wieczór)</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/sky2.png" alt="">
+            <div class="layer">
+                <h3>NIGHT<br>(noc)</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/sky3.png" alt="">
+            <div class="layer">
+                <h3>MORNING<br>(poranek)</h3>
+            </div>
+        </div>
+    </div>
+    <p>Jak widzisz są to przykładowe obrazy. Gdy najeżdżasz na nie coś się dzieje</p>
+
+</section>
+<!--------- Facilities ------------>
+
+<section class="facilities">
+    <h1>Zwykłe czynności</h1>
+    <p>Twórz według swojego pomysłu, lub opracowanego wcześniej projektu<br>
+        Możesz też zrobić plan czy szkic i robić wszystko małymi kroczkami <br>Ty Decydujesz :)</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library1.png" alt="">
+            <h3>Top 10 Najpiękniejszych bibliotek na świecie</h3>
+            <p>Nie ma to usiąść z kawą lub herbatą i zanużyć się przy tytule który budzi w nas ciekawość. Szczególnie w
+                tak niezwyklym miejscu.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/F1.png" alt="">
+            <h3>Ikony F1 powracają na tor w F1 2022</h3>
+            <p>Jeśli jesteś fanem sportu to możesz dodać coś np.<br> Z wyścigami? Czemu nie :) Ostatnio zyskują coraz
+                większą popularność. Nie wiem jak ty ale ja uwielbiam.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/shop1.png" alt="">
+            <h3>Masz ochotę na kawę?</h3>
+            <p>Starbucks szykuje dla nas coś wspaniałego. Late z Mrożonym Cukrem i Ciastko! lub perfekcyjnie zmiksowany
+                Frappuchino Drink - Brzmi przepysznie:)
+            </p>
+        </div>
+    </div>
+</section>
+
+<!--------- Testimonials ------------>
+<section class="testimonials">
+    <h1>Najnowsze opinie</h1>
+    <p>Dodanie możliwości opinii jest bardzo ciekawym pomysłem</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg" alt="">
+            <div>
+                <p>Dużo pracy przed tobą. Nie poddawaj się i stawiaj kroki w drodze do upragnionego celu. Jesteś
+                    naprawdę dobry tylko jeszcze o tym nie wiesz. Ode mnie cztery gwiazdki. Czekam na nowe pomysły:)</p>
+                <h3>Anna Nowak</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg" alt="">
+            <div>
+                <p>Kształtuj jutro
+                    Uzupełniaj płatne ankiety, testuj produkty, recenzuj reklamy i wypowiadaj się. Powiedz markom, których codziennie używasz, co naprawdę myślisz o ich produktach i obsłudze. Twoje zdanie ma znaczenie.
+                </p>
+                <h3>Jan Kowalski</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+</section>
+<!--------- Call To Action ------------>
+<section class="cta">
+    <h1>To co robisz jest ważne. Uczysz się<br> Staraj się robić wszystko starannie</h1>
+    <a href="" class="hero-btn">KONTAKT</a>
+</section>
+<!--------- Footer ------------>
+<section class="footer">
+    <h4>O MNIE</h4>
+    <p>Gdy robię tą stronę dopiero stopniowo wchodzę w świat IT. Od zawsze mnie to interesowało i sprawia mi to przyjemność<br>Tak wygląda moja pierwsza strona a bardziej taki pusty plan który ma jakąś formę. Spokojnie, z czasem będą lepsze:)</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>Made by <i class="fa fa-book"></i> Marcin Rataj</p>
+</section>
+
+<!--------- JavaScript for Toggle Menu ------------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
