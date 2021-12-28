@@ -3,7 +3,7 @@ This is my first website. The buttons are not working, sorry but I'm still learn
 
 In the project directory, you can run:
 
-In your program (Visual Studio Code, Webstorm or ...) just go to Index.html.
+In your program (Visual Studio Code, Webstorm or ... ) just go to Index.html
 and chose option open in browser 
 
 
