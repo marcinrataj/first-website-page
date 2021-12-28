@@ -7,5 +7,5 @@ In your program (Visual Studio Code, Webstorm or ... ) just go to Index.html
 and chose option open in browser 
 
 
-
+THIS IS WHAT IT LOOKS LIKE:
 ![1](https://i.pinimg.com/originals/71/24/d4/7124d4afb5b3665a2c3c2c4721451a67.png)
