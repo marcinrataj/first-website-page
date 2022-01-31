@@ -1,4 +1,4 @@
 # first-website
-This is my first website. The buttons are not working, sorry but I'm still learning and this is my first step on this journey
+This is my first webpage. I do this in HTML, CSS, JavaScript
 
 https://marcinrataj.github.io/first-website-page/
